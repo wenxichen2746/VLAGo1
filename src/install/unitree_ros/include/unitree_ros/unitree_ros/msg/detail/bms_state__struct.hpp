@@ -1,0 +1,1 @@
+/home/trace/ros2_ws/src/build/unitree_ros/rosidl_generator_cpp/unitree_ros/msg/detail/bms_state__struct.hpp

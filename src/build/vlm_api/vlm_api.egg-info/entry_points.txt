@@ -1,0 +1,4 @@
+[console_scripts]
+command_publisher = vlm_api.command_publisher:main
+vla_publisher0203 = vlm_api.vla_publisher0203:main
+

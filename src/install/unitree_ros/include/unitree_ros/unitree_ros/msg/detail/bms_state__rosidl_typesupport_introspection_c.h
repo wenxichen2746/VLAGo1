@@ -1,0 +1,1 @@
+/home/trace/ros2_ws/src/build/unitree_ros/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_c.h

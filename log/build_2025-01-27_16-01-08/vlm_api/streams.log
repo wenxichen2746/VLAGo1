@@ -1,0 +1,24 @@
+[1.342s] Invoking command in '/home/trace/ros2_ws/build/vlm_api': PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/trace/ros2_ws/build/vlm_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trace/ros2_ws/install/vlm_api/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trace/ros2_ws/build/vlm_api/build --no-deps symlink_data
+[1.891s] running develop
+[2.239s] running egg_info
+[2.239s] creating vlm_api.egg-info
+[2.239s] writing vlm_api.egg-info/PKG-INFO
+[2.239s] writing dependency_links to vlm_api.egg-info/dependency_links.txt
+[2.240s] writing entry points to vlm_api.egg-info/entry_points.txt
+[2.240s] writing requirements to vlm_api.egg-info/requires.txt
+[2.240s] writing top-level names to vlm_api.egg-info/top_level.txt
+[2.241s] writing manifest file 'vlm_api.egg-info/SOURCES.txt'
+[2.244s] reading manifest file 'vlm_api.egg-info/SOURCES.txt'
+[2.245s] writing manifest file 'vlm_api.egg-info/SOURCES.txt'
+[2.248s] running build_ext
+[2.248s] Creating /home/trace/ros2_ws/install/vlm_api/lib/python3.10/site-packages/vlm-api.egg-link (link to .)
+[2.250s] Installing command_publisher script to /home/trace/ros2_ws/install/vlm_api/lib/vlm_api
+[2.251s] 
+[2.251s] Installed /home/trace/ros2_ws/build/vlm_api
+[2.251s] running symlink_data
+[2.251s] creating /home/trace/ros2_ws/install/vlm_api/share/ament_index
+[2.251s] creating /home/trace/ros2_ws/install/vlm_api/share/ament_index/resource_index
+[2.251s] creating /home/trace/ros2_ws/install/vlm_api/share/ament_index/resource_index/packages
+[2.252s] symbolically linking /home/trace/ros2_ws/build/vlm_api/resource/vlm_api -> /home/trace/ros2_ws/install/vlm_api/share/ament_index/resource_index/packages
+[2.252s] symbolically linking /home/trace/ros2_ws/build/vlm_api/package.xml -> /home/trace/ros2_ws/install/vlm_api/share/vlm_api
+[2.332s] Invoked command in '/home/trace/ros2_ws/build/vlm_api' returned '0': PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/trace/ros2_ws/build/vlm_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trace/ros2_ws/install/vlm_api/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trace/ros2_ws/build/vlm_api/build --no-deps symlink_data

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating vlm_api.egg-info
+writing vlm_api.egg-info/PKG-INFO
+writing dependency_links to vlm_api.egg-info/dependency_links.txt
+writing entry points to vlm_api.egg-info/entry_points.txt
+writing requirements to vlm_api.egg-info/requires.txt
+writing top-level names to vlm_api.egg-info/top_level.txt
+writing manifest file 'vlm_api.egg-info/SOURCES.txt'
+reading manifest file 'vlm_api.egg-info/SOURCES.txt'
+writing manifest file 'vlm_api.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/trace/ros2_ws/install/vlm_api/lib/python3.10/site-packages/vlm-api.egg-link (link to .)
+Installing command_publisher script to /home/trace/ros2_ws/install/vlm_api/lib/vlm_api
+
+Installed /home/trace/ros2_ws/build/vlm_api
+running symlink_data
+creating /home/trace/ros2_ws/install/vlm_api/share/ament_index
+creating /home/trace/ros2_ws/install/vlm_api/share/ament_index/resource_index
+creating /home/trace/ros2_ws/install/vlm_api/share/ament_index/resource_index/packages
+symbolically linking /home/trace/ros2_ws/build/vlm_api/resource/vlm_api -> /home/trace/ros2_ws/install/vlm_api/share/ament_index/resource_index/packages
+symbolically linking /home/trace/ros2_ws/build/vlm_api/package.xml -> /home/trace/ros2_ws/install/vlm_api/share/vlm_api

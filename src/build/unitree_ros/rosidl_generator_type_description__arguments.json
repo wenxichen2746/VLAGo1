@@ -1,0 +1,16 @@
+{
+  "package_name": "unitree_ros",
+  "output_dir": "/home/trace/ros2_ws/src/build/unitree_ros/rosidl_generator_type_description/unitree_ros",
+  "idl_tuples": [
+    "/home/trace/ros2_ws/src/build/unitree_ros/rosidl_adapter/unitree_ros:msg/BmsState.idl",
+    "/home/trace/ros2_ws/src/build/unitree_ros/rosidl_adapter/unitree_ros:msg/SensorRanges.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "sensor_msgs:/opt/ros/iron/share/sensor_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "nav_msgs:/opt/ros/iron/share/nav_msgs"
+  ]
+}

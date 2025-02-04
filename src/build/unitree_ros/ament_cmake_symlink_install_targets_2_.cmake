@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/trace/ros2_ws/src/build/unitree_ros/rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "unitree_ros__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.10/site-packages/unitree_ros")

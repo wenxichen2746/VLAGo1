@@ -1,0 +1,3 @@
+[console_scripts]
+command_publisher = vlm_api.command_publisher:main
+

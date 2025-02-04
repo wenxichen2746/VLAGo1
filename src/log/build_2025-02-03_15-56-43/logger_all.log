@@ -1,0 +1,197 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8a151780>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8a150d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8a150d90>>, mixin_verb=('build',))
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.590s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/trace/ros2_ws/src'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'ros'
+[0.622s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros' with type 'ros.ament_cmake' and name 'unitree_ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(vlm_api) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'vlm_api' with type 'ros.ament_python' and name 'vlm_api'
+[0.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.698s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/trace/ros2_ws/src/install
+[0.700s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/iron
+[0.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.789s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/trace/ros2_ws/src/build/unitree_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/trace/ros2_ws/src/install/unitree_ros', 'merge_install': False, 'path': '/home/trace/ros2_ws/src/unitree_ros', 'symlink_install': True, 'test_result_base': None}
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'cmake_target' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'vlm_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.790s] DEBUG:colcon.colcon_core.verb:Building package 'vlm_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/trace/ros2_ws/src/build/vlm_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/trace/ros2_ws/src/install/vlm_api', 'merge_install': False, 'path': '/home/trace/ros2_ws/src/vlm_api', 'symlink_install': True, 'test_result_base': None}
+[0.791s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.793s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/trace/ros2_ws/src/unitree_ros' with build type 'ament_cmake'
+[0.794s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/trace/ros2_ws/src/unitree_ros'
+[0.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.805s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/trace/ros2_ws/src/vlm_api' with build type 'ament_python'
+[0.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_api', 'ament_prefix_path')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/hook/ament_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/hook/ament_prefix_path.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/hook/ament_prefix_path.sh'
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/trace/ros2_ws/src/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trace/ros2_ws/src/install/vlm_api:/opt/ros/iron PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/trace/ros2_ws/src/build/unitree_ros -- -j6 -l6
+[1.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/trace/ros2_ws/src/vlm_api'
+[1.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/trace/ros2_ws/src/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trace/ros2_ws/src/install/vlm_api:/opt/ros/iron PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/trace/ros2_ws/src/build/unitree_ros -- -j6 -l6
+[1.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/trace/ros2_ws/src/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trace/ros2_ws/src/install/vlm_api:/opt/ros/iron PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --install /home/trace/ros2_ws/src/build/unitree_ros
+[1.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ros)
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/trace/ros2_ws/src/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trace/ros2_ws/src/install/vlm_api:/opt/ros/iron PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --install /home/trace/ros2_ws/src/build/unitree_ros
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros' for CMake module files
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros' for CMake config files
+[1.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros', 'cmake_prefix_path')
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/cmake_prefix_path.ps1'
+[1.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/cmake_prefix_path.dsv'
+[1.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/cmake_prefix_path.sh'
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/lib'
+[1.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros', 'ld_library_path_lib')
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/ld_library_path_lib.ps1'
+[1.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/ld_library_path_lib.dsv'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/ld_library_path_lib.sh'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/lib/pkgconfig/unitree_ros.pc'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/lib/python3.10/site-packages'
+[1.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros', 'pythonpath')
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/pythonpath.ps1'
+[1.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/pythonpath.dsv'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/pythonpath.sh'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/bin'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.ps1'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.sh'
+[1.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.bash'
+[1.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.zsh'
+[1.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/trace/ros2_ws/src/install/unitree_ros/share/colcon-core/packages/unitree_ros)
+[1.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ros)
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros' for CMake module files
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros' for CMake config files
+[1.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros', 'cmake_prefix_path')
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/cmake_prefix_path.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/cmake_prefix_path.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/cmake_prefix_path.sh'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/lib'
+[1.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros', 'ld_library_path_lib')
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/ld_library_path_lib.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/ld_library_path_lib.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/ld_library_path_lib.sh'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/bin'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/lib/pkgconfig/unitree_ros.pc'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/lib/python3.10/site-packages'
+[1.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros', 'pythonpath')
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/pythonpath.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/pythonpath.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/hook/pythonpath.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/unitree_ros/bin'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.ps1'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.sh'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.bash'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/unitree_ros/share/unitree_ros/package.zsh'
+[1.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/trace/ros2_ws/src/install/unitree_ros/share/colcon-core/packages/unitree_ros)
+[2.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/trace/ros2_ws/src/build/vlm_api': PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/trace/ros2_ws/src/build/vlm_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trace/ros2_ws/src/install/vlm_api/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trace/ros2_ws/src/build/vlm_api/build --no-deps symlink_data
+[3.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_api', 'pythonpath_develop')
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/build/vlm_api/share/vlm_api/hook/pythonpath_develop.ps1'
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/trace/ros2_ws/src/build/vlm_api' returned '0': PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/trace/ros2_ws/src/build/vlm_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trace/ros2_ws/src/install/vlm_api/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trace/ros2_ws/src/build/vlm_api/build --no-deps symlink_data
+[3.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/build/vlm_api/share/vlm_api/hook/pythonpath_develop.dsv'
+[3.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/build/vlm_api/share/vlm_api/hook/pythonpath_develop.sh'
+[3.198s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api' for CMake module files
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api' for CMake config files
+[3.201s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api/lib'
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api/bin'
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api/lib/pkgconfig/vlm_api.pc'
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api/lib/python3.10/site-packages'
+[3.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_api', 'pythonpath')
+[3.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/hook/pythonpath.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/hook/pythonpath.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/hook/pythonpath.sh'
+[3.210s] Level 1:colcon.colcon_core.environment:checking '/home/trace/ros2_ws/src/install/vlm_api/bin'
+[3.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vlm_api)
+[3.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/package.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/package.dsv'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/package.sh'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/package.bash'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/trace/ros2_ws/src/install/vlm_api/share/vlm_api/package.zsh'
+[3.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/trace/ros2_ws/src/install/vlm_api/share/colcon-core/packages/vlm_api)
+[3.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.223s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.243s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.285s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trace/ros2_ws/src/install/local_setup.ps1'
+[3.290s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/trace/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trace/ros2_ws/src/install/setup.ps1'
+[3.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trace/ros2_ws/src/install/local_setup.sh'
+[3.303s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/trace/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trace/ros2_ws/src/install/setup.sh'
+[3.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trace/ros2_ws/src/install/local_setup.bash'
+[3.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trace/ros2_ws/src/install/setup.bash'
+[3.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/trace/ros2_ws/src/install/local_setup.zsh'
+[3.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/trace/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,692 @@
+[0.000000] (-) TimerEvent: {}
+[0.000583] (unitree_ros) JobQueued: {'identifier': 'unitree_ros', 'dependencies': OrderedDict()}
+[0.001033] (unitree_ros) JobStarted: {'identifier': 'unitree_ros'}
+[0.014479] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'cmake'}
+[0.015555] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/trace/ros2_ws/src/unitree_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/trace/ros2_ws/install/unitree_ros'], 'cwd': '/home/trace/ros2_ws/build/unitree_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'trace'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/trace'), ('OLDPWD', '/home/trace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(ros2_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('SYSTEMD_EXEC_PID', '2055'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'trace'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'trace'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/trace/ros2_venv/bin:/usr/local/cuda-12.6/bin:/opt/ros/iron/bin:/usr/local/cuda-12.6/bin:/home/trace/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2036,unix/ubuntu:/tmp/.ICE-unix/2036'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cadfebea_2d78_4f72_bc64_22f440415318'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VIRTUAL_ENV_PROMPT', '(ros2_venv)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/trace/ros2_venv'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/trace/ros2_ws/build/unitree_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099578] (-) TimerEvent: {}
+[0.129138] (unitree_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199741] (-) TimerEvent: {}
+[0.241518] (unitree_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.261050] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299914] (-) TimerEvent: {}
+[0.400606] (-) TimerEvent: {}
+[0.412627] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.437226] (unitree_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.437676] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.438304] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.446546] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500757] (-) TimerEvent: {}
+[0.601429] (-) TimerEvent: {}
+[0.615185] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.639540] (unitree_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.640448] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.641894] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.646386] (unitree_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.701546] (-) TimerEvent: {}
+[0.802132] (-) TimerEvent: {}
+[0.902746] (-) TimerEvent: {}
+[0.962716] (unitree_ros) StdoutLine: {'line': b'-- Found Python3: /home/trace/ros2_venv/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.002853] (-) TimerEvent: {}
+[1.094560] (unitree_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.102953] (-) TimerEvent: {}
+[1.109347] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.203098] (-) TimerEvent: {}
+[1.251423] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303204] (-) TimerEvent: {}
+[1.319312] (unitree_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[1.330074] (unitree_ros) StdoutLine: {'line': b'-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.403332] (-) TimerEvent: {}
+[1.503829] (-) TimerEvent: {}
+[1.604386] (-) TimerEvent: {}
+[1.650244] (unitree_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.654099] (unitree_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.704483] (-) TimerEvent: {}
+[1.805009] (-) TimerEvent: {}
+[1.834419] (unitree_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.895360] (unitree_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.905100] (-) TimerEvent: {}
+[1.976213] (unitree_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.005204] (-) TimerEvent: {}
+[2.105703] (-) TimerEvent: {}
+[2.206180] (-) TimerEvent: {}
+[2.295832] (unitree_ros) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[2.306270] (-) TimerEvent: {}
+[2.355738] (unitree_ros) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[2.406385] (-) TimerEvent: {}
+[2.506822] (-) TimerEvent: {}
+[2.607291] (-) TimerEvent: {}
+[2.657093] (unitree_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[2.707415] (-) TimerEvent: {}
+[2.807987] (-) TimerEvent: {}
+[2.847612] (unitree_ros) StdoutLine: {'line': b'-- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)\n'}
+[2.872438] (unitree_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)\n'}
+[2.908064] (-) TimerEvent: {}
+[3.008538] (-) TimerEvent: {}
+[3.109089] (-) TimerEvent: {}
+[3.209637] (-) TimerEvent: {}
+[3.310152] (-) TimerEvent: {}
+[3.410736] (-) TimerEvent: {}
+[3.511283] (-) TimerEvent: {}
+[3.611829] (-) TimerEvent: {}
+[3.712471] (-) TimerEvent: {}
+[3.813138] (-) TimerEvent: {}
+[3.913677] (-) TimerEvent: {}
+[4.014195] (-) TimerEvent: {}
+[4.114708] (-) TimerEvent: {}
+[4.215449] (-) TimerEvent: {}
+[4.315977] (-) TimerEvent: {}
+[4.416574] (-) TimerEvent: {}
+[4.517142] (-) TimerEvent: {}
+[4.530088] (unitree_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[4.617294] (-) TimerEvent: {}
+[4.717929] (-) TimerEvent: {}
+[4.818648] (-) TimerEvent: {}
+[4.919302] (-) TimerEvent: {}
+[5.019896] (-) TimerEvent: {}
+[5.120359] (-) TimerEvent: {}
+[5.163281] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.220735] (-) TimerEvent: {}
+[5.321223] (-) TimerEvent: {}
+[5.421704] (-) TimerEvent: {}
+[5.522195] (-) TimerEvent: {}
+[5.622741] (-) TimerEvent: {}
+[5.723457] (-) TimerEvent: {}
+[5.824115] (-) TimerEvent: {}
+[5.924637] (-) TimerEvent: {}
+[6.007261] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.040484] (-) TimerEvent: {}
+[6.048956] (unitree_ros) StdoutLine: {'line': b'-- Found PythonInterp: /home/trace/ros2_venv/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.052270] (unitree_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[6.101148] (unitree_ros) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.101581] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/trace/ros2_venv/bin/python3\n'}
+[6.101850] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.102093] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.137766] (unitree_ros) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.140577] (-) TimerEvent: {}
+[6.240956] (-) TimerEvent: {}
+[6.340034] (unitree_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.341056] (-) TimerEvent: {}
+[6.441514] (-) TimerEvent: {}
+[6.447257] (unitree_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[6.480114] (unitree_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/trace/ros2_ws/build/unitree_ros\n'}
+[6.517610] (unitree_ros) CommandEnded: {'returncode': 0}
+[6.519678] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'build'}
+[6.522129] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/trace/ros2_ws/build/unitree_ros', '--', '-j6', '-l6'], 'cwd': '/home/trace/ros2_ws/build/unitree_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'trace'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/trace'), ('OLDPWD', '/home/trace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(ros2_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('SYSTEMD_EXEC_PID', '2055'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'trace'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'trace'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/trace/ros2_venv/bin:/usr/local/cuda-12.6/bin:/opt/ros/iron/bin:/usr/local/cuda-12.6/bin:/home/trace/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2036,unix/ubuntu:/tmp/.ICE-unix/2036'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cadfebea_2d78_4f72_bc64_22f440415318'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VIRTUAL_ENV_PROMPT', '(ros2_venv)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/trace/ros2_venv'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/trace/ros2_ws/build/unitree_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[6.541617] (-) TimerEvent: {}
+[6.633262] (unitree_ros) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.641995] (-) TimerEvent: {}
+[6.657861] (unitree_ros) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_unitree_ros\n'}
+[6.742176] (-) TimerEvent: {}
+[6.842841] (-) TimerEvent: {}
+[6.943401] (-) TimerEvent: {}
+[7.043956] (-) TimerEvent: {}
+[7.054223] (unitree_ros) StdoutLine: {'line': b'running egg_info\n'}
+[7.055169] (unitree_ros) StdoutLine: {'line': b'creating unitree_ros.egg-info\n'}
+[7.055576] (unitree_ros) StdoutLine: {'line': b'writing unitree_ros.egg-info/PKG-INFO\n'}
+[7.055981] (unitree_ros) StdoutLine: {'line': b'writing dependency_links to unitree_ros.egg-info/dependency_links.txt\n'}
+[7.056332] (unitree_ros) StdoutLine: {'line': b'writing top-level names to unitree_ros.egg-info/top_level.txt\n'}
+[7.056553] (unitree_ros) StdoutLine: {'line': b"writing manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[7.059836] (unitree_ros) StdoutLine: {'line': b"reading manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[7.061843] (unitree_ros) StdoutLine: {'line': b"writing manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[7.132733] (unitree_ros) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_unitree_ros_egg\n'}
+[7.144052] (-) TimerEvent: {}
+[7.168139] (unitree_ros) StdoutLine: {'line': b'[  2%] Built target unitree_ros__rosidl_generator_type_description\n'}
+[7.194804] (unitree_ros) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.214631] (unitree_ros) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.244206] (-) TimerEvent: {}
+[7.344823] (-) TimerEvent: {}
+[7.445318] (-) TimerEvent: {}
+[7.545908] (-) TimerEvent: {}
+[7.646538] (-) TimerEvent: {}
+[7.747137] (-) TimerEvent: {}
+[7.847725] (-) TimerEvent: {}
+[7.912273] (unitree_ros) StdoutLine: {'line': b'[  6%] Built target unitree_ros__cpp\n'}
+[7.947957] (-) TimerEvent: {}
+[8.029654] (unitree_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/bms_state__type_support.c.o\x1b[0m\n'}
+[8.030205] (unitree_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/bms_state__description.c.o\x1b[0m\n'}
+[8.030381] (unitree_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/sensor_ranges__description.c.o\x1b[0m\n'}
+[8.030524] (unitree_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/bms_state__functions.c.o\x1b[0m\n'}
+[8.030702] (unitree_ros) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/sensor_ranges__functions.c.o\x1b[0m\n'}
+[8.035204] (unitree_ros) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/sensor_ranges__type_support.c.o\x1b[0m\n'}
+[8.048160] (-) TimerEvent: {}
+[8.144393] (unitree_ros) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libunitree_ros__rosidl_generator_c.so\x1b[0m\n'}
+[8.148246] (-) TimerEvent: {}
+[8.223529] (unitree_ros) StdoutLine: {'line': b'[ 20%] Built target unitree_ros__rosidl_generator_c\n'}
+[8.244578] (unitree_ros) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.245113] (unitree_ros) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.245287] (unitree_ros) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.245526] (unitree_ros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.245709] (unitree_ros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.245942] (unitree_ros) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.248398] (-) TimerEvent: {}
+[8.349600] (-) TimerEvent: {}
+[8.450225] (-) TimerEvent: {}
+[8.550880] (-) TimerEvent: {}
+[8.651537] (-) TimerEvent: {}
+[8.752193] (-) TimerEvent: {}
+[8.852796] (-) TimerEvent: {}
+[8.896195] (unitree_ros) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[8.910183] (unitree_ros) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[8.952475] (unitree_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/bms_state__type_support.c.o\x1b[0m\n'}
+[8.952976] (-) TimerEvent: {}
+[8.995762] (unitree_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[9.013756] (unitree_ros) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o\x1b[0m\n'}
+[9.014234] (unitree_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/bms_state__type_support.cpp.o\x1b[0m\n'}
+[9.027574] (unitree_ros) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/bms_state__type_support_c.cpp.o\x1b[0m\n'}
+[9.049774] (unitree_ros) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/sensor_ranges__type_support.c.o\x1b[0m\n'}
+[9.053112] (-) TimerEvent: {}
+[9.085126] (unitree_ros) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.131411] (unitree_ros) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libunitree_ros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.153313] (-) TimerEvent: {}
+[9.166872] (unitree_ros) StdoutLine: {'line': b'[ 53%] Built target unitree_ros__rosidl_typesupport_c\n'}
+[9.186166] (unitree_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[9.197166] (unitree_ros) StdoutLine: {'line': b'[ 55%] Built target unitree_ros__rosidl_typesupport_introspection_c\n'}
+[9.240456] (unitree_ros) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/sensor_ranges__type_support_c.cpp.o\x1b[0m\n'}
+[9.253506] (-) TimerEvent: {}
+[9.354240] (-) TimerEvent: {}
+[9.454967] (-) TimerEvent: {}
+[9.555727] (-) TimerEvent: {}
+[9.656492] (-) TimerEvent: {}
+[9.757222] (-) TimerEvent: {}
+[9.779815] (unitree_ros) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[9.824244] (unitree_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[9.857439] (-) TimerEvent: {}
+[9.958142] (-) TimerEvent: {}
+[10.059127] (-) TimerEvent: {}
+[10.066396] (unitree_ros) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.147472] (unitree_ros) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.159345] (-) TimerEvent: {}
+[10.228408] (unitree_ros) StdoutLine: {'line': b'[ 65%] Built target unitree_ros__rosidl_typesupport_introspection_cpp\n'}
+[10.259558] (-) TimerEvent: {}
+[10.333045] (unitree_ros) StdoutLine: {'line': b'[ 65%] Built target unitree_ros__rosidl_typesupport_fastrtps_c\n'}
+[10.359739] (-) TimerEvent: {}
+[10.460449] (-) TimerEvent: {}
+[10.561121] (-) TimerEvent: {}
+[10.612832] (unitree_ros) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.661298] (-) TimerEvent: {}
+[10.696028] (unitree_ros) StdoutLine: {'line': b'[ 67%] Built target unitree_ros__rosidl_typesupport_cpp\n'}
+[10.740503] (unitree_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/serializers.cpp.o\x1b[0m\n'}
+[10.740989] (unitree_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_driver.cpp.o\x1b[0m\n'}
+[10.741175] (unitree_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros_node.cpp.o\x1b[0m\n'}
+[10.741364] (unitree_ros) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros.cpp.o\x1b[0m\n'}
+[10.761484] (-) TimerEvent: {}
+[10.862184] (-) TimerEvent: {}
+[10.962853] (-) TimerEvent: {}
+[11.002233] (unitree_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.063041] (-) TimerEvent: {}
+[11.164006] (-) TimerEvent: {}
+[11.164716] (unitree_ros) StdoutLine: {'line': b'[ 77%] Built target unitree_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[11.212563] (unitree_ros) StdoutLine: {'line': b'[ 77%] Built target unitree_ros\n'}
+[11.256520] (unitree_ros) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.264180] (-) TimerEvent: {}
+[11.365439] (-) TimerEvent: {}
+[11.468785] (-) TimerEvent: {}
+[11.569508] (-) TimerEvent: {}
+[11.670273] (-) TimerEvent: {}
+[11.771224] (-) TimerEvent: {}
+[11.871987] (-) TimerEvent: {}
+[11.972801] (-) TimerEvent: {}
+[12.073776] (-) TimerEvent: {}
+[12.174778] (-) TimerEvent: {}
+[12.275841] (-) TimerEvent: {}
+[12.376846] (-) TimerEvent: {}
+[12.414098] (unitree_ros) StdoutLine: {'line': b'[ 79%] Built target unitree_ros__py\n'}
+[12.457777] (unitree_ros) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_py.dir/rosidl_generator_py/unitree_ros/msg/_sensor_ranges_s.c.o\x1b[0m\n'}
+[12.458431] (unitree_ros) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_py.dir/rosidl_generator_py/unitree_ros/msg/_bms_state_s.c.o\x1b[0m\n'}
+[12.477013] (-) TimerEvent: {}
+[12.577717] (-) TimerEvent: {}
+[12.678437] (-) TimerEvent: {}
+[12.743079] (unitree_ros) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/libunitree_ros__rosidl_generator_py.so\x1b[0m\n'}
+[12.778631] (-) TimerEvent: {}
+[12.838166] (unitree_ros) StdoutLine: {'line': b'[ 85%] Built target unitree_ros__rosidl_generator_py\n'}
+[12.878834] (-) TimerEvent: {}
+[12.885326] (unitree_ros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.885938] (unitree_ros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.886145] (unitree_ros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.979012] (-) TimerEvent: {}
+[13.079753] (-) TimerEvent: {}
+[13.112938] (unitree_ros) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.121671] (unitree_ros) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.134839] (unitree_ros) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.179962] (-) TimerEvent: {}
+[13.219945] (unitree_ros) StdoutLine: {'line': b'[ 97%] Built target unitree_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.228785] (unitree_ros) StdoutLine: {'line': b'[ 97%] Built target unitree_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[13.246588] (unitree_ros) StdoutLine: {'line': b'[ 97%] Built target unitree_ros__rosidl_typesupport_c__pyext\n'}
+[13.280056] (-) TimerEvent: {}
+[13.381017] (-) TimerEvent: {}
+[13.481733] (-) TimerEvent: {}
+[13.582411] (-) TimerEvent: {}
+[13.683083] (-) TimerEvent: {}
+[13.783726] (-) TimerEvent: {}
+[13.884406] (-) TimerEvent: {}
+[13.985147] (-) TimerEvent: {}
+[14.085897] (-) TimerEvent: {}
+[14.186630] (-) TimerEvent: {}
+[14.287340] (-) TimerEvent: {}
+[14.388024] (-) TimerEvent: {}
+[14.488741] (-) TimerEvent: {}
+[14.589470] (-) TimerEvent: {}
+[14.690191] (-) TimerEvent: {}
+[14.791172] (-) TimerEvent: {}
+[14.892141] (-) TimerEvent: {}
+[14.992904] (-) TimerEvent: {}
+[15.093678] (-) TimerEvent: {}
+[15.194307] (-) TimerEvent: {}
+[15.294906] (-) TimerEvent: {}
+[15.395561] (-) TimerEvent: {}
+[15.496198] (-) TimerEvent: {}
+[15.596954] (-) TimerEvent: {}
+[15.697681] (-) TimerEvent: {}
+[15.798395] (-) TimerEvent: {}
+[15.899106] (-) TimerEvent: {}
+[15.999823] (-) TimerEvent: {}
+[16.100541] (-) TimerEvent: {}
+[16.201242] (-) TimerEvent: {}
+[16.301943] (-) TimerEvent: {}
+[16.402669] (-) TimerEvent: {}
+[16.503377] (-) TimerEvent: {}
+[16.604105] (-) TimerEvent: {}
+[16.705118] (-) TimerEvent: {}
+[16.805850] (-) TimerEvent: {}
+[16.906840] (-) TimerEvent: {}
+[17.007549] (-) TimerEvent: {}
+[17.108217] (-) TimerEvent: {}
+[17.208911] (-) TimerEvent: {}
+[17.309595] (-) TimerEvent: {}
+[17.410274] (-) TimerEvent: {}
+[17.510989] (-) TimerEvent: {}
+[17.611721] (-) TimerEvent: {}
+[17.712446] (-) TimerEvent: {}
+[17.813133] (-) TimerEvent: {}
+[17.913720] (-) TimerEvent: {}
+[18.014419] (-) TimerEvent: {}
+[18.115179] (-) TimerEvent: {}
+[18.215878] (-) TimerEvent: {}
+[18.316751] (-) TimerEvent: {}
+[18.417848] (-) TimerEvent: {}
+[18.518827] (-) TimerEvent: {}
+[18.619546] (-) TimerEvent: {}
+[18.720272] (-) TimerEvent: {}
+[18.821061] (-) TimerEvent: {}
+[18.921774] (-) TimerEvent: {}
+[19.022479] (-) TimerEvent: {}
+[19.123158] (-) TimerEvent: {}
+[19.223889] (-) TimerEvent: {}
+[19.324630] (-) TimerEvent: {}
+[19.425349] (-) TimerEvent: {}
+[19.526053] (-) TimerEvent: {}
+[19.626757] (-) TimerEvent: {}
+[19.727460] (-) TimerEvent: {}
+[19.828165] (-) TimerEvent: {}
+[19.928868] (-) TimerEvent: {}
+[20.029526] (-) TimerEvent: {}
+[20.130153] (-) TimerEvent: {}
+[20.230669] (-) TimerEvent: {}
+[20.331185] (-) TimerEvent: {}
+[20.431890] (-) TimerEvent: {}
+[20.532564] (-) TimerEvent: {}
+[20.633246] (-) TimerEvent: {}
+[20.733973] (-) TimerEvent: {}
+[20.834638] (-) TimerEvent: {}
+[20.935199] (-) TimerEvent: {}
+[21.035718] (-) TimerEvent: {}
+[21.136130] (-) TimerEvent: {}
+[21.236580] (-) TimerEvent: {}
+[21.337057] (-) TimerEvent: {}
+[21.437497] (-) TimerEvent: {}
+[21.537983] (-) TimerEvent: {}
+[21.638496] (-) TimerEvent: {}
+[21.739154] (-) TimerEvent: {}
+[21.839817] (-) TimerEvent: {}
+[21.940345] (-) TimerEvent: {}
+[22.040849] (-) TimerEvent: {}
+[22.141373] (-) TimerEvent: {}
+[22.241876] (-) TimerEvent: {}
+[22.342359] (-) TimerEvent: {}
+[22.442862] (-) TimerEvent: {}
+[22.543381] (-) TimerEvent: {}
+[22.643935] (-) TimerEvent: {}
+[22.744978] (-) TimerEvent: {}
+[22.845857] (-) TimerEvent: {}
+[22.946325] (-) TimerEvent: {}
+[23.046788] (-) TimerEvent: {}
+[23.147310] (-) TimerEvent: {}
+[23.247839] (-) TimerEvent: {}
+[23.348327] (-) TimerEvent: {}
+[23.448741] (-) TimerEvent: {}
+[23.549133] (-) TimerEvent: {}
+[23.649613] (-) TimerEvent: {}
+[23.750279] (-) TimerEvent: {}
+[23.850873] (-) TimerEvent: {}
+[23.951417] (-) TimerEvent: {}
+[24.051930] (-) TimerEvent: {}
+[24.152412] (-) TimerEvent: {}
+[24.252899] (-) TimerEvent: {}
+[24.353352] (-) TimerEvent: {}
+[24.453829] (-) TimerEvent: {}
+[24.554346] (-) TimerEvent: {}
+[24.654896] (-) TimerEvent: {}
+[24.755541] (-) TimerEvent: {}
+[24.856169] (-) TimerEvent: {}
+[24.956662] (-) TimerEvent: {}
+[25.057072] (-) TimerEvent: {}
+[25.157560] (-) TimerEvent: {}
+[25.258013] (-) TimerEvent: {}
+[25.358415] (-) TimerEvent: {}
+[25.458800] (-) TimerEvent: {}
+[25.559199] (-) TimerEvent: {}
+[25.659740] (-) TimerEvent: {}
+[25.760410] (-) TimerEvent: {}
+[25.861037] (-) TimerEvent: {}
+[25.961556] (-) TimerEvent: {}
+[26.061983] (-) TimerEvent: {}
+[26.162374] (-) TimerEvent: {}
+[26.262804] (-) TimerEvent: {}
+[26.363282] (-) TimerEvent: {}
+[26.463725] (-) TimerEvent: {}
+[26.564173] (-) TimerEvent: {}
+[26.664740] (-) TimerEvent: {}
+[26.765391] (-) TimerEvent: {}
+[26.865973] (-) TimerEvent: {}
+[26.966464] (-) TimerEvent: {}
+[27.066977] (-) TimerEvent: {}
+[27.167476] (-) TimerEvent: {}
+[27.267958] (-) TimerEvent: {}
+[27.368403] (-) TimerEvent: {}
+[27.468900] (-) TimerEvent: {}
+[27.569394] (-) TimerEvent: {}
+[27.669961] (-) TimerEvent: {}
+[27.770673] (-) TimerEvent: {}
+[27.871202] (-) TimerEvent: {}
+[27.971694] (-) TimerEvent: {}
+[28.072376] (-) TimerEvent: {}
+[28.172890] (-) TimerEvent: {}
+[28.273397] (-) TimerEvent: {}
+[28.373943] (-) TimerEvent: {}
+[28.474513] (-) TimerEvent: {}
+[28.575009] (-) TimerEvent: {}
+[28.675760] (-) TimerEvent: {}
+[28.776474] (-) TimerEvent: {}
+[28.876966] (-) TimerEvent: {}
+[28.977444] (-) TimerEvent: {}
+[29.077969] (-) TimerEvent: {}
+[29.178484] (-) TimerEvent: {}
+[29.278937] (-) TimerEvent: {}
+[29.379376] (-) TimerEvent: {}
+[29.479832] (-) TimerEvent: {}
+[29.580413] (-) TimerEvent: {}
+[29.681055] (-) TimerEvent: {}
+[29.781700] (-) TimerEvent: {}
+[29.882255] (-) TimerEvent: {}
+[29.982805] (-) TimerEvent: {}
+[30.083302] (-) TimerEvent: {}
+[30.183740] (-) TimerEvent: {}
+[30.284184] (-) TimerEvent: {}
+[30.384705] (-) TimerEvent: {}
+[30.485201] (-) TimerEvent: {}
+[30.585746] (-) TimerEvent: {}
+[30.686439] (-) TimerEvent: {}
+[30.787109] (-) TimerEvent: {}
+[30.887632] (-) TimerEvent: {}
+[30.988051] (-) TimerEvent: {}
+[31.088482] (-) TimerEvent: {}
+[31.188882] (-) TimerEvent: {}
+[31.289343] (-) TimerEvent: {}
+[31.389877] (-) TimerEvent: {}
+[31.490357] (-) TimerEvent: {}
+[31.590847] (-) TimerEvent: {}
+[31.691524] (-) TimerEvent: {}
+[31.792162] (-) TimerEvent: {}
+[31.892718] (-) TimerEvent: {}
+[31.993246] (-) TimerEvent: {}
+[32.093767] (-) TimerEvent: {}
+[32.194294] (-) TimerEvent: {}
+[32.294771] (-) TimerEvent: {}
+[32.395219] (-) TimerEvent: {}
+[32.495738] (-) TimerEvent: {}
+[32.596282] (-) TimerEvent: {}
+[32.696962] (-) TimerEvent: {}
+[32.797588] (-) TimerEvent: {}
+[32.898138] (-) TimerEvent: {}
+[32.998612] (-) TimerEvent: {}
+[33.099046] (-) TimerEvent: {}
+[33.199510] (-) TimerEvent: {}
+[33.300034] (-) TimerEvent: {}
+[33.400574] (-) TimerEvent: {}
+[33.501075] (-) TimerEvent: {}
+[33.601615] (-) TimerEvent: {}
+[33.702290] (-) TimerEvent: {}
+[33.802938] (-) TimerEvent: {}
+[33.903442] (-) TimerEvent: {}
+[34.003906] (-) TimerEvent: {}
+[34.104344] (-) TimerEvent: {}
+[34.204778] (-) TimerEvent: {}
+[34.305211] (-) TimerEvent: {}
+[34.405651] (-) TimerEvent: {}
+[34.506104] (-) TimerEvent: {}
+[34.606595] (-) TimerEvent: {}
+[34.707265] (-) TimerEvent: {}
+[34.807931] (-) TimerEvent: {}
+[34.908475] (-) TimerEvent: {}
+[35.008965] (-) TimerEvent: {}
+[35.109526] (-) TimerEvent: {}
+[35.210037] (-) TimerEvent: {}
+[35.310533] (-) TimerEvent: {}
+[35.410959] (-) TimerEvent: {}
+[35.511404] (-) TimerEvent: {}
+[35.611905] (-) TimerEvent: {}
+[35.712600] (-) TimerEvent: {}
+[35.813277] (-) TimerEvent: {}
+[35.913809] (-) TimerEvent: {}
+[36.014258] (-) TimerEvent: {}
+[36.114762] (-) TimerEvent: {}
+[36.215258] (-) TimerEvent: {}
+[36.315732] (-) TimerEvent: {}
+[36.416200] (-) TimerEvent: {}
+[36.516744] (-) TimerEvent: {}
+[36.617319] (-) TimerEvent: {}
+[36.718085] (-) TimerEvent: {}
+[36.818917] (-) TimerEvent: {}
+[36.919746] (-) TimerEvent: {}
+[37.020536] (-) TimerEvent: {}
+[37.121352] (-) TimerEvent: {}
+[37.222180] (-) TimerEvent: {}
+[37.323038] (-) TimerEvent: {}
+[37.423893] (-) TimerEvent: {}
+[37.524760] (-) TimerEvent: {}
+[37.625711] (-) TimerEvent: {}
+[37.726540] (-) TimerEvent: {}
+[37.827346] (-) TimerEvent: {}
+[37.860335] (unitree_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable unitree_driver\x1b[0m\n'}
+[37.927548] (-) TimerEvent: {}
+[38.028417] (-) TimerEvent: {}
+[38.129285] (-) TimerEvent: {}
+[38.230161] (-) TimerEvent: {}
+[38.331190] (-) TimerEvent: {}
+[38.431942] (-) TimerEvent: {}
+[38.532957] (-) TimerEvent: {}
+[38.634055] (-) TimerEvent: {}
+[38.734888] (-) TimerEvent: {}
+[38.835689] (-) TimerEvent: {}
+[38.936563] (-) TimerEvent: {}
+[39.037341] (-) TimerEvent: {}
+[39.138144] (-) TimerEvent: {}
+[39.238995] (-) TimerEvent: {}
+[39.339870] (-) TimerEvent: {}
+[39.440740] (-) TimerEvent: {}
+[39.515840] (unitree_ros) StdoutLine: {'line': b'[100%] Built target unitree_driver\n'}
+[39.540878] (-) TimerEvent: {}
+[39.545411] (unitree_ros) CommandEnded: {'returncode': 0}
+[39.547864] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'install'}
+[39.570342] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/trace/ros2_ws/build/unitree_ros'], 'cwd': '/home/trace/ros2_ws/build/unitree_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'trace'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/trace'), ('OLDPWD', '/home/trace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(ros2_venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('SYSTEMD_EXEC_PID', '2055'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'trace'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'trace'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/trace/ros2_venv/bin:/usr/local/cuda-12.6/bin:/opt/ros/iron/bin:/usr/local/cuda-12.6/bin:/home/trace/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2036,unix/ubuntu:/tmp/.ICE-unix/2036'), ('PYTHON_EXECUTABLE', '/usr/bin/python3.10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cadfebea_2d78_4f72_bc64_22f440415318'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VIRTUAL_ENV_PROMPT', '(ros2_venv)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/trace/ros2_venv'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/trace/ros2_ws/build/unitree_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[39.596099] (unitree_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.597412] (unitree_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[39.598589] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/ament_index/resource_index/rosidl_interfaces/unitree_ros\n'}
+[39.619549] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.json\n'}
+[39.640976] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.json\n'}
+[39.641380] (-) TimerEvent: {}
+[39.663071] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/bms_state.h\n'}
+[39.690335] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__functions.h\n'}
+[39.709816] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__struct.h\n'}
+[39.735002] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.h\n'}
+[39.741550] (-) TimerEvent: {}
+[39.755110] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__functions.h\n'}
+[39.779691] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__struct.h\n'}
+[39.800095] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.h\n'}
+[39.820030] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_generator_c__visibility_control.h\n'}
+[39.842099] (-) TimerEvent: {}
+[39.842813] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/sensor_ranges.h\n'}
+[39.863770] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/library_path.sh\n'}
+[39.884995] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/library_path.dsv\n'}
+[39.907035] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h\n'}
+[39.928174] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_fastrtps_c.h\n'}
+[39.942226] (-) TimerEvent: {}
+[39.949064] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[39.970658] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_c.h\n'}
+[39.991753] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_introspection_c.h\n'}
+[40.011654] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[40.033286] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/bms_state.hpp\n'}
+[40.042434] (-) TimerEvent: {}
+[40.055177] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__builder.hpp\n'}
+[40.083536] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__struct.hpp\n'}
+[40.105669] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__traits.hpp\n'}
+[40.127942] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__builder.hpp\n'}
+[40.142644] (-) TimerEvent: {}
+[40.149828] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__struct.hpp\n'}
+[40.173684] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__traits.hpp\n'}
+[40.197065] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/sensor_ranges.hpp\n'}
+[40.221848] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.240120] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.242714] (-) TimerEvent: {}
+[40.260406] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[40.282197] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[40.300691] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_introspection_cpp.hpp\n'}
+[40.321162] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/pythonpath.sh\n'}
+[40.342841] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/pythonpath.dsv\n'}
+[40.343288] (-) TimerEvent: {}
+[40.362920] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[40.383582] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[40.402448] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[40.422817] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[40.443486] (-) TimerEvent: {}
+[40.444155] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/__init__.py\n'}
+[40.464402] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_c.c\n'}
+[40.491263] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[40.512725] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[40.533988] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/libunitree_ros__rosidl_generator_py.so\n'}
+[40.543673] (-) TimerEvent: {}
+[40.555004] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/__init__.py\n'}
+[40.579369] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/_bms_state.py\n'}
+[40.604482] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/_bms_state_s.c\n'}
+[40.625860] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/_sensor_ranges.py\n'}
+[40.643899] (-) TimerEvent: {}
+[40.649079] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/_sensor_ranges_s.c\n'}
+[40.676820] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.698390] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.718769] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.741111] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.741840] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.742416] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.742880] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.idl\n'}
+[40.743994] (-) TimerEvent: {}
+[40.763132] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.idl\n'}
+[40.783722] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.msg\n'}
+[40.804161] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.msg\n'}
+[40.824382] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_ros/common_defines.hpp\n'}
+[40.844213] (-) TimerEvent: {}
+[40.847797] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_ros/serializers.hpp\n'}
+[40.869061] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_ros/unitree_driver.hpp\n'}
+[40.890517] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_ros/unitree_ros.hpp\n'}
+[40.915541] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/a1_const.h\n'}
+[40.936340] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/aliengo_const.h\n'}
+[40.944393] (-) TimerEvent: {}
+[40.957842] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/b1_const.h\n'}
+[40.985017] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/comm.h\n'}
+[41.004216] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/go1_const.h\n'}
+[41.028103] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/joystick.h\n'}
+[41.044597] (-) TimerEvent: {}
+[41.053235] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/loop.h\n'}
+[41.076591] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/quadruped.h\n'}
+[41.096413] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/safety.h\n'}
+[41.119307] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/udp.h\n'}
+[41.139028] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/unitree_legged_sdk/unitree_legged_sdk.h\n'}
+[41.144751] (-) TimerEvent: {}
+[41.160003] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/FaceLightClient.h\n'}
+[41.180977] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/include/include/LEDPixel.h\n'}
+[41.201154] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/config/params.yaml\n'}
+[41.222954] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/launch/unitree_driver_launch.py\n'}
+[41.243399] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/lib/libfaceLight_SDK_arm64.so\n'}
+[41.244857] (-) TimerEvent: {}
+[41.263898] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/ament_index/resource_index/package_run_dependencies/unitree_ros\n'}
+[41.287736] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/ament_index/resource_index/parent_prefix_path/unitree_ros\n'}
+[41.307419] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/ament_prefix_path.sh\n'}
+[41.328886] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/ament_prefix_path.dsv\n'}
+[41.345074] (-) TimerEvent: {}
+[41.354669] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/path.sh\n'}
+[41.377445] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/environment/path.dsv\n'}
+[41.400846] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/local_setup.bash\n'}
+[41.423956] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/local_setup.sh\n'}
+[41.445220] (-) TimerEvent: {}
+[41.447800] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/local_setup.zsh\n'}
+[41.469625] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/local_setup.dsv\n'}
+[41.490192] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/package.dsv\n'}
+[41.510605] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/ament_index/resource_index/packages/unitree_ros\n'}
+[41.530150] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake-extras.cmake\n'}
+[41.545323] (-) TimerEvent: {}
+[41.549923] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[41.569443] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[41.592898] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[41.610793] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[41.630673] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[41.645440] (-) TimerEvent: {}
+[41.649881] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[41.669881] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_rosConfig.cmake\n'}
+[41.689508] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_rosConfig-version.cmake\n'}
+[41.708873] (unitree_ros) StdoutLine: {'line': b'-- Symlinking: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/package.xml\n'}
+[41.731374] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_c.so\n'}
+[41.732649] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_c.so" to ""\n'}
+[41.733011] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_c.so\n'}
+[41.734084] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[41.734585] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_c.so\n'}
+[41.735369] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_c.so" to ""\n'}
+[41.735765] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_c.so\n'}
+[41.736597] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_c.so" to ""\n'}
+[41.736974] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[41.738449] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[41.738818] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_cpp.so\n'}
+[41.739823] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[41.740186] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_cpp.so\n'}
+[41.741052] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_cpp.so" to ""\n'}
+[41.745537] (-) TimerEvent: {}
+[41.815524] (unitree_ros) StdoutLine: {'line': b"Listing '/home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros'...\n"}
+[41.816028] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/__init__.py'...\n"}
+[41.816330] (unitree_ros) StdoutLine: {'line': b"Listing '/home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg'...\n"}
+[41.816601] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/__init__.py'...\n"}
+[41.816837] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/_bms_state.py'...\n"}
+[41.817063] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/trace/ros2_ws/install/unitree_ros/lib/python3.10/site-packages/unitree_ros/msg/_sensor_ranges.py'...\n"}
+[41.826645] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_py.so\n'}
+[41.827329] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_py.so" to ""\n'}
+[41.827660] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/lib/unitree_ros/unitree_driver\n'}
+[41.845666] (-) TimerEvent: {}
+[41.854367] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/trace/ros2_ws/install/unitree_ros/lib/unitree_ros/unitree_driver" to ""\n'}
+[41.854801] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cExport.cmake\n'}
+[41.855257] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cExport-noconfig.cmake\n'}
+[41.855786] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[41.856371] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[41.856887] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[41.857402] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[41.857933] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cExport.cmake\n'}
+[41.858461] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[41.858991] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cppExport.cmake\n'}
+[41.859509] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[41.860014] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[41.860566] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[41.861093] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[41.861605] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cppExport.cmake\n'}
+[41.862100] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[41.862620] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_pyExport.cmake\n'}
+[41.863208] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/trace/ros2_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_pyExport-noconfig.cmake\n'}
+[41.870354] (unitree_ros) CommandEnded: {'returncode': 0}
+[41.946046] (-) TimerEvent: {}
+[41.956613] (unitree_ros) JobEnded: {'identifier': 'unitree_ros', 'rc': 0}
+[41.958981] (-) EventReactorShutdown: {}
