@@ -15,7 +15,7 @@ class CommandPublisher(Node):
     def timer_callback(self):
         msg = Twist()
         msg.linear.x = 0.2 # Forward velocity in m/s
-        msg.angular.z = 0.0 #-0.2 # Angular velocity in rad/s
+        msg.angular.z = 0.2 #-0.2 # Angular velocity in rad/s
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing: linear.x = {msg.linear.x}, angular.z = {msg.angular.z}')
 
